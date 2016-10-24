@@ -1,0 +1,750 @@
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:700,800);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:700,800|Poiret+One|Roboto+Slab:100);
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Brandon_bld.otf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/Brandon_reg.otf);
+}
+
+.ChoiceStructure{
+    z-index: 999;
+    autocomplete: off;
+}
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Base structure for header and title */
+body {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+.site-background {
+    background: url(../img/NASA-ISS-newzealand.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+   
+    margin: 0 auto;
+}
+
+/* Center items into center of page  */
+.inner-center {
+    align-items: center;
+}
+
+/* Deafult Font Sizes */
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+        font-family: myThirdFont;
+}
+
+#surveyID{
+    color:#475a81;
+}
+
+.single-title{
+
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+
+
+/* First Title */
+.content-title {
+    padding-top: 1.5vw;
+    padding-bottom: 2.5vw;
+    text-align: center;
+}
+.lead{
+    font-family: 'Raleway', sans-serif;
+    line-height: 175%;
+}
+
+.whitebox{
+    border: 1px solid #424141;
+    border-radius: 10px;
+    color: #999;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.28);
+}
+.loginBox{
+    border: 1px solid #424141;
+    border-radius: 10px;
+    color: #999;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.28);
+}
+
+.footer-below{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+iframe{
+    border-width: 0px;
+}
+/* Wraps the last title */
+.wrapperContribution{
+    padding: 1vw;
+}
+
+  /* Starting from the stone age */
+@media (min-width: 176px) {
+
+    .fixed-nav-bar .logo {
+        font-size: 12px;
+    }
+    .shouldWeCollapse{
+    .collapse("show")
+    }
+    #surveyID{
+        margin-bottom:30px;
+    }
+    .getSize{
+        font-size:7.5vw;
+    }
+
+    /* Second Title */
+    .getSize2{
+        font-size:5.5vw;
+        text-align: center;
+    }
+
+    .whitebox {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 5%;
+        margin-top: 25vw;
+        max-height: 70%;
+    }
+     .login-box {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 5%;
+        margin-top: 35vw;
+        max-height: 70%;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+    }
+    
+
+
+    /* Last Title before Button */
+    .getSize3{
+        font-size:5.5vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    /* Button Wrapper */
+    .container{
+        text-align:center;
+        padding-left:0;
+        padding-right:0;
+    }
+    /* Button */
+    .btn btn-danger {
+        overflow: visible;
+        margin-top: 40%;
+        text-align:center;
+    }
+
+    .qualtricsBox{
+        margin-bottom: 4vw;
+        margin-left:0vw;
+        margin-right:0vw;
+    }
+    /* Footer Wrapper */
+    .wrapper {
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        z-index: 150;
+    }
+
+    /* Footer */
+    .content-main p{
+        color: white;
+        font-size:2.7vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+
+    /* UTEP Image goes here */
+    .content-left {
+        float: left;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* NSF Image goes here */
+    .content-right {
+        float: right;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    .qualtricsWrapper{
+        font-weight: 700;
+        color: rgba(255,255,255,.5);
+        border-bottom: .25rem solid transparent;
+    }
+
+    /* Qualtrics Box Content */
+    .maincontentdiv {
+        border: .5px solid #9D9D9D;
+        /*  overflow-y: scroll; */
+        position: relative;
+        height:850px; /*Height of gray bubbly box */
+        -moz-border-radius: 15px;
+        /* -webkit-overflow-scrolling: touch; */
+    }
+
+    .ScrollStyle {
+      /*  overflow-y: scroll; */
+    }
+}
+/* Yellow = Only for the weird kindle fire that amazon couldn't sell, has 7in pixels of width */
+@media (min-width: 533px) {
+    .fixed-nav-bar .logo {
+         font-size: 22px;
+     }
+    .shouldWeCollapse{
+    .collapse("show")
+    }
+    /* Footer */
+    .wrapper {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .qualtricsBox{
+        margin-bottom: 4vw;
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+
+    .content-main {
+        color: yellow;
+        font-size:2.5vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+    .getSize{
+        font-size:2.25em;
+    }
+    .getSize2{
+        font-size:2.25em;
+        font-weight:700;
+    }
+
+
+    .whitebox {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 5%;
+        max-height: 70%;
+
+    }
+    .login-box {
+        margin-left: 30vw;
+        margin-right: 30vw;
+        margin-bottom: 5%;
+        max-height: 70%;
+        margin-top: 20vw;
+    }
+
+    .getSize3{
+        font-size:1.5em;
+        font-weight:700;
+    }
+
+    .button {
+        overflow: visible;
+        margin-top: 4%;
+    }
+
+    /* Footer */
+    .content-main p{
+        color: white;
+        font-size:2.0vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+
+    /* UTEP Image goes here */
+    .content-left {
+        float: left;
+        width: 125px;
+        text-align: left;
+        padding-left: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* NSF Image goes here */
+    .content-right {
+        float: right;
+        width: 125px;
+        text-align: right;
+        padding-right: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+
+    .maincontentdiv {
+        position: relative;
+        width: 100%;
+        max-height: 650px;
+      /*  overflow: auto; */
+        text-align: left;
+        padding: 10px;
+
+        border: .5px solid #9D9D9D;
+        color: black;
+        border: 10px;
+    }
+
+    /*Scroll Box for the height of the gray box*/
+    .ScrollStyle {
+
+        /*  overflow-y: scroll; */
+    }
+}
+
+/* Orange = Computers of 7.5in, iPad or 8.9in pixels of width */
+@media (min-width: 600px) {
+    .fixed-nav-bar .logo {
+        font-size: 20px;
+    }
+    .shouldWeCollapse{
+    .collapse("hide")
+    }
+    .getSize{
+        font-size:6.0vw;
+    }
+
+    /* Second Title */
+    .getSize2{
+        font-size:4.5vw;
+        text-align: center;
+    }
+
+    /* Home Transparent Box */
+    .whitebox {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 10vw;
+        max-height: 70%;
+    }
+    .login-box {
+        margin-left: 30vw;
+        margin-right: 30vw;
+        margin-bottom: 5%;
+        max-height: 70%;
+        margin-top: 40vw;
+    }
+
+
+    /* Last Title before Button */
+    .getSize3{
+        font-size:3.0vw;
+        text-align: center;
+    }
+
+
+    /* Button */
+    .button {
+        overflow: visible;
+        margin-top: 40%;
+    }
+
+    /* Footer Wrapper */
+    .wrapper {
+        /* Build invisible rectangle/square box to put NSF and UTEP Images later */
+        padding-left: 10%;
+        padding-right: 15%;
+        text-align: center;
+    
+    }
+
+    .qualtricsBox{
+        margin-bottom: 4vw;
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+
+    /* Footer */
+    .content-main p{
+        color: white;
+        font-size:2.0vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+
+    /* UTEP Image goes here */
+    .content-left {
+        float: left;
+        width: 125px;
+        text-align: left;
+        padding-left: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* NSF Image goes here */
+    .content-right {
+        float: right;
+        width: 125px;
+        text-align: right;
+        padding-right: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    .footer{
+        margin-top: 3.0vw;
+    }
+
+    /* Qualtrics Box Content */
+    .maincontentdiv {
+        position: relative;
+        height: 650px;
+        width: 100%;
+        -moz-border-radius: 15px;
+
+        overflow: hidden;
+   /*     -webkit-overflow-scrolling: touch; */
+    }
+    /* Scroll Height of the gray text box */
+    .ScrollStyle {
+
+        /*  overflow-y: scroll; */
+    }
+
+    
+}
+ /* Computers of 13in, 14in or 15in pixels of width */
+@media (min-width: 1024px) {
+    .fixed-nav-bar .logo {
+        font-size: 28px;
+    }
+    .shouldWeCollapse{
+    .collapse("hide")
+    }
+    .getSize{
+        font-size:3.0vw;
+    }
+    /* Thin Font: Shree Devanagari 714 */
+
+    /* Second Title */
+    .getSize2{
+        font-size:2.0vw;
+        text-align: center;
+    }
+
+    /* Home Transparent Box */
+    .whitebox {
+        margin-left:15vw;
+        margin-right:15vw;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 8vw;
+
+    }
+    .login-box {
+        margin-left: 30vw;
+        margin-right: 30vw;
+        margin-bottom: 5%;
+        max-height: 70%;
+        margin-top: 20vw;
+    }
+
+    .qualtricsWrapper{
+        border-radius: 30px;
+        border: .5px solid #9D9D9D;
+        filter: alpha(opacity=60);
+        margin-left: 15.0vw;
+        margin-right: 15.0vw;
+        text-align: center;
+    }
+
+    /* Last Title before Button */
+    .getSize3{
+        font-size:2.0vw;
+        text-align: center;
+    }
+
+    /* Button Wrapper */
+    .container{
+    //    margin-bottom: 2.4vw;
+    }
+    /* Button */
+    .button {
+        overflow: visible;
+        margin-top: 40%;
+    }
+
+    /* Footer Wrapper */
+    .wrapper {
+        /* Build invisible rectangle/square box to put NSF and UTEP Images later */
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        z-index: 150;
+    }
+
+    .qualtricsBox{
+        margin-bottom: 4vw;
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+
+    /* Footer */
+    .content-main p{
+        color: white;
+        font-size:1.0vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+
+    /* UTEP Image goes here */
+    .content-left {
+        float: left;
+        width: 125px;
+        text-align: left;
+        padding-left: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* NSF Image goes here */
+    .content-right {
+        float: right;
+        width: 125px;
+        text-align: right;
+        padding-right: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* Qualtrics Box Content */
+    .maincontentdiv {
+        position: relative;
+        height: 650px;
+        width: 100%;
+        -moz-border-radius: 15px;
+
+        overflow: hidden;
+      /*  -webkit-overflow-scrolling: touch; */
+    }
+
+    /* Scroll Height of the gray text box */
+    .ScrollStyle {
+        /*  overflow-y: scroll; */
+    }
+    
+}
+
+/* Computers of 19in, 20in, 22in, 23in or 24in pixels of width */
+@media (min-width: 1280px) {
+    .shouldWeCollapse{
+    .collapse("hide")
+    }
+
+    /* First Title */
+    .getSize{
+        font-size:3.0vw;
+    }
+
+    /* Second Title */
+    .getSize2{
+        font-size:2.5vw;
+        text-align: center;
+    }
+
+    /* Home Transparent Box */
+    .whitebox {
+        margin-bottom: 4vw;
+        margin-left:24vw;
+        margin-right:24vw;
+        margin-top:5vw;
+    }
+       
+
+    /* Last Title before Button */
+    .getSize3{
+        font-size:2.0vw;
+        text-align: center;
+    }
+    .qualtricsWrapper{
+        background-color: #fff;
+        border-radius: 30px;
+        border: .5px solid #9D9D9D;
+        height:24vw;
+    }
+
+    /* Button Wrapper */
+    .container{
+        margin: 1.0vw;
+        text-align:center;
+    }
+    /* Button */
+    .btn btn-danger {
+        overflow: visible;
+        margin-top: 30%;
+        text-align:center;
+    }
+
+    /* Footer Wrapper */
+    .wrapper {
+        margin:30%;
+        /* Build invisible rectangle/square box to put NSF and UTEP Images later */
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        z-index: 150;
+    }
+
+    .qualtricsBox{
+        margin-bottom: 4vw;
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+
+    /* Footer */
+    .content-main p{
+        color: white;
+        font-size:1.0vw;
+        text-align: center;
+        font-family: myThirdFont;
+    }
+
+    /* UTEP Image goes here */
+    .content-left {
+        float: left;
+        width: 125px;
+        text-align: left;
+        padding-left: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* NSF Image goes here */
+    .content-right {
+        float: right;
+        width: 125px;
+        text-align: right;
+        padding-right: 3vw;
+        margin: 2px 10px;
+        display: inline;
+    }
+
+    /* Qualtrics Box Content */
+    .maincontentdiv {
+        font-size: 2.0vw;
+    }
+
+    /* Scroll Height of the gray text box */
+    .ScrollStyle {
+
+        /*  overflow-y: scroll; */
+    }
+}
+
+/* Creates a margin between text and gray box */
+div.whitebox p {
+    color: #475a81;
+    margin: 2vw;
+}
+
+
+div.whitebox {
+    background: #f2f2f2;
+
+}
+div.loginBox p {
+    color: #475a81;
+    margin: 2vw;
+}
+
+
+div.loginBox {
+    background: #f2f2f2;
+
+}
+
+/* Footer */
+.footer {
+    bottom:0;
+    position: relative;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+/* custom box */
+.slideup {
+    position: absolute;
+    width: 100%;
+    bottom: -2px;
+    min-height: 0;
+    color: #FFF;
+    transition: min-height 250ms ease-in;
+    background-color: #666666;
+    text-align: center;
+    height: 20px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.maincontentdiv:hover > .slideup,
+.maincontentdiv:focus > .slideup {
+    min-height: 65%;
+}
+
+/* Login CSS */
+
+
+
+.login-box-body{
+    padding: 20px;
+    border-top: 0;
+    color: #475a81;
+}
+
+.login-box-msg{
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+
+

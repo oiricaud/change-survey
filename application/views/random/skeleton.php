@@ -1,0 +1,3 @@
+random= <?php
+echo $body;
+?>
